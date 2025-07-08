@@ -1,0 +1,124 @@
+.navbar {
+  background-color: #212B36;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.avatar-circle {
+  background-color: #e9f0f6;
+  color: #212121;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: 400;
+}
+.logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  letter-spacing: 1px;
+}
+.user-info-container {
+  position: relative;
+  cursor: pointer;
+}
+/* Updated dropdown style */
+.dropdown-menu {
+  position: absolute;
+  top: 58px;
+  right: 0;
+  background-color: #ffffff;
+  color: #212121;
+  border-radius: 10px;
+  min-width: 240px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  padding: 16px;
+  animation: fadeIn 0.2s ease-in-out;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Arrow pointing up to avatar */
+.dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: 18px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+
+.dropdown-menu p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.dropdown-menu p:first-child {
+  font-weight: 600;
+}
+
+.view-profile-link {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.view-profile-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
