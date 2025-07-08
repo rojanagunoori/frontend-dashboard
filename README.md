@@ -1,5 +1,14 @@
 # 🧑‍💻 Frontend Dashboard
 
+## 📸 Screenshots
+
+### 🧩 Dashboard Page
+![Dashboard](screenshots/dashboard.png)
+
+### 👤 Profile Page
+![Profile](screenshots/profile.png)
+
+
 This project is part of a Front-End Internship assignment. It demonstrates building a React-based user dashboard with paginated and searchable data from dummy APIs.
 
 **🔗 Live Demo:** [https://frontend-dashboard1.netlify.app/](https://frontend-dashboard1.netlify.app/)  

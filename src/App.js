@@ -4,6 +4,7 @@ import Dashboard from './components/Dashboard';
 import Profile from './components/Profile';
 import { fetchUsers } from './api/api';
 import Navbar from './components/Navbar';
+import NotFound from './components/NotFound';
 //import './App.css';
 
 function App() {
