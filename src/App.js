@@ -22,6 +22,7 @@ function App() {
         <Route path="/" element={<Navigate to="/dashboard" />} />
         <Route path="/dashboard" element={<Dashboard user={user} />} />
         <Route path="/profile" element={<Profile user={user} />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );

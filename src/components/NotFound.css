@@ -1,0 +1,31 @@
+/* src/components/NotFound.css */
+.notfound-container {
+    text-align: center;
+    padding: 4rem;
+    color: #283271;
+  }
+  
+  .notfound-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .notfound-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .go-back {
+    padding: 0.6rem 1.2rem;
+    background-color: #283271;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .go-back:hover {
+    background-color: #3b468c;
+  }
+  
